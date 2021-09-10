@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Accueil</title>
+</head>
+<body>
+  <section>
+      <div class="loader">
+        <div class="dot" style="--i:0;"></div>
+        <div class="dot" style="--i:1;"></div>
+        <div class="dot" style="--i:2;"></div>
+        <div class="dot" style="--i:3;"></div>
+        <div class="dot" style="--i:4;"></div>
+        <div class="dot" style="--i:5;"></div>
+        <div class="dot" style="--i:6;"></div>
+        <div class="dot" style="--i:7;"></div>
+        <div class="dot" style="--i:8;"></div>
+        <div class="dot" style="--i:9;"></div>
+        <div class="dot" style="--i:10;"></div>
+        <div class="dot" style="--i:11;"></div>
+        <div class="dot" style="--i:12;"></div>
+        <div class="dot" style="--i:13;"></div>
+        <div class="dot" style="--i:14;"></div>
+        <div class="dot" style="--i:15;"></div>
+        <div class="dot" style="--i:16;"></div>
+        <div class="dot" style="--i:17;"></div>
+        <div class="dot" style="--i:18;"></div>
+        <div class="dot" style="--i:19;"></div>
+        <div class="dot" style="--i:20;"></div>
+        <div class="dot" style="--i:21;"></div>
+        <div class="dot" style="--i:22;"></div>
+        <div class="dot" style="--i:23;"></div>
+        <div class="dot" style="--i:24;"></div>
+        <div class="dot" style="--i:25;"></div>
+        <div class="dot" style="--i:26;"></div>
+        <div class="dot" style="--i:27;"></div>
+        <div class="dot" style="--i:28;"></div>
+        <div class="dot" style="--i:29;"></div>
+        <div class="dot" style="--i:30;"></div>
+      </div>
+
+      <img id="logOBC" src="../img/logobabyfootpng" alt="OBC">
+
+      <div id="buttons"> <a href="../html/Boutique.html">BOUTIQUE</a> <a href="./projet.html">PROJET</a> <a href="#">OBC</a> <a href="./l'équipe.html">L'ÉQUIPE</a> <a href="./FAQ.html">FAQ</a></div>
+
+      <a href="../html/Panier.html"><img id="panier" src="../img/panier.png" alt="Panier"></a> 
+    
+      <div class="loader">
+        <div class="dot" style="--i:0;"></div>
+        <div class="dot" style="--i:1;"></div>
+        <div class="dot" style="--i:2;"></div>
+        <div class="dot" style="--i:3;"></div>
+        <div class="dot" style="--i:4;"></div>
+        <div class="dot" style="--i:5;"></div>
+        <div class="dot" style="--i:6;"></div>
+        <div class="dot" style="--i:7;"></div>
+        <div class="dot" style="--i:8;"></div>
+        <div class="dot" style="--i:9;"></div>
+        <div class="dot" style="--i:10;"></div>
+        <div class="dot" style="--i:11;"></div>
+        <div class="dot" style="--i:12;"></div>
+        <div class="dot" style="--i:13;"></div>
+        <div class="dot" style="--i:14;"></div>
+        <div class="dot" style="--i:15;"></div>
+        <div class="dot" style="--i:16;"></div>
+        <div class="dot" style="--i:17;"></div>
+        <div class="dot" style="--i:18;"></div>
+        <div class="dot" style="--i:19;"></div>
+        <div class="dot" style="--i:20;"></div>
+        <div class="dot" style="--i:21;"></div>
+        <div class="dot" style="--i:22;"></div>
+        <div class="dot" style="--i:23;"></div>
+        <div class="dot" style="--i:24;"></div>
+        <div class="dot" style="--i:25;"></div>
+        <div class="dot" style="--i:26;"></div>
+        <div class="dot" style="--i:27;"></div>
+        <div class="dot" style="--i:28;"></div>
+        <div class="dot" style="--i:29;"></div>
+        <div class="dot" style="--i:30;"></div>
+      </div>
+  </section>
+  <div id="space1"> &nbsp; </div>
+
+
+  <main>
+
+
+    <div id="video">
+      <video controls width="100%" autoplay muted >
+        <source src="../video/VIDtease.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div id="slider">
+      <div class="w3-content w3-section" style="max-width:95%" style="max-height:500px;">
+        <img class="mySlides" src="../img/image1.jpg" >
+        <img class="mySlides" src="../img/OBabyfootC.jpg" >
+        <img class="mySlides" src="../img/img4.JPG" >
+        <img class="mySlides" src="../img/img1.JPG" >
+        <img class="mySlides" src="../img/img2.JPG" >
+        <img class="mySlides" src="../img/img3.JPG" >
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
+    </div>
+  </main>
+    <br/>
+    <div id="ttdroit"> 
+            <div class="double">
+              <img src="../img/cam" style="width:100%">
+              </div> 
+            <br/>
+            <div class="double">
+              <img src="../img/babycontrolerb" style="width:100%">
+            </div>
+    </div>
+    <br/>
+
+  
+  <footer id="footer2">
+    <div id="space2"> &nbsp; </div>
+      <div id="reseaux">
+        <p>Nos réseaux : <br>
+<img id="image" src="../img/instagram.png" alt="">
+<img id="image" src="../img/twitter.png" alt="">
+</p>
+</div>
+<aside>
+    <h3>Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OBCepsi@gmail.com<br>
+    Téléphone : &nbsp;04 67 04 20 01<br>
+    Adresse : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;437 Av. des Apothicaires, 34090 Montpellier</h3>
+</aside>
+<img id="LOGO" src="../img/logobabyfoot" alt="">
+<br> 
+<div id="copyright">
+<p>© 2021 OBC. Tout droits réservés.</p> 
+</div>
+<div id="CVGML">
+    <a href="../html/CVG.html">CVG</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="../html/Mentionsleg.html">Mentions légales</a>
+</div>
+
+  </footer>
+</body>
+</html>
